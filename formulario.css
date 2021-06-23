@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Circular Std,"Circular Std Book",-apple-system,system-ui,blinkmacsystemfont,"Segoe UI",roboto,oxygen-sans,ubuntu,cantarell,"Helvetica Neue",sans-serif;
+}
+label{
+    text-align: left;
+    font-size: 20px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    
+}
+input{
+    border-radius: 4px;
+    height: 44px;
+    font-size: 15px;
+    border: solid 1px #8A94A9;
+    display: block;
+    width: 100%;
+    padding: 0 12px;
+    margin-top: 9px;
+    background-color: #fff;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    
+}
+button {
+    text-align: justify;
+    flex-direction: row;
+    font-size: 20px;
+    color: #fff;
+    height: 56px;
+    border: 0;
+    width: 100%;
+    border-radius: 4px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0 14px;
+    cursor: pointer;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    transition: all .2s ease;
+    background-color: #2b63d3;
+    margin-top: 15px;
+}
+
+select{
+    width: 100%;
+    border-radius: 4px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    transition: all .2s ease;
+    background-color: #fff;
+    margin-top: 15px;
+    text-align: justify;
+    flex-direction: row;
+    font-size: 1.1em;
+    height: 30px;
+}
+#resultado{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}

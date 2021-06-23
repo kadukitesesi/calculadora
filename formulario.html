@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <script src="formulario.js"></script>
+</head>
+<body>
+    <div >
+        <h1>Calculadora</h1>
+        <label>Primeiro Número:</label>
+        <br/>
+        <input type="number" placeholder="Digite o primeiro número." id="numero1">
+        <br/>
+        <br/>
+        <select name="operacao" id="operacao">
+            <option value="soma">Soma</option>
+            <option value="sub">Subtração</option>
+            <option value="mult">Multiplicação</option>
+            <option value="div">Divisão</option>
+            <option value="poten">Potenciação</option>
+        </select>
+        <br>
+        <br>
+        <label>segundo Número:</label>
+        <br/>
+        <br>
+
+        <input type="number" placeholder="Digite o segundo número." id="numero2">
+        <br/>
+        <br/>
+        <button onclick="calc()">resultado</button>
+        <br/>
+        <br/>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
